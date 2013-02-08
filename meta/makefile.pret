@@ -1,0 +1,14 @@
+# This file provides instructions for packaging.
+
+`Scalar-Accessors-LikeHash`
+	perl_version_from m`Scalar::Accessors::LikeHash`;
+	version_from      m`Scalar::Accessors::LikeHash`;
+	readme_from       m`Scalar::Accessors::LikeHash`;
+	requires          p`Module::Runtime 0`;
+	requires          p`Role::Tiny 0`;
+	test_requires     p`Test::Requires 0`;
+	recommends        p`Moose 2.00`;
+	recommends        p`JSON 2.00`;
+	recommends        p`Sereal`;
+.
+
