@@ -166,6 +166,8 @@ Strings, numbers and undef are all OK; arrayrefs and hashrefs are OK
 provided you don't create cyclical data structures, and provided they
 don't contain any non-OK data as values.
 
+This module requires L<JSON> 2.00+ and L<Moose> 2.00+ to be installed.
+
 =begin private
 
 =item init_meta
@@ -179,7 +181,7 @@ L<http://rt.cpan.org/Dist/Display.html?Queue=Scalar-Accessors-LikeHash>.
 
 =head1 SEE ALSO
 
-L<Scalar::Accessors::LikeHash>.
+L<Scalar::Accessors::LikeHash>, L<JSON>, L<Moose>.
 
 L<MooseX::InsideOut>, L<MooseX::GlobRef>, L<MooseX::ArrayRef>.
 

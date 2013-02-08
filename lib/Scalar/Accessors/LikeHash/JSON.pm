@@ -54,6 +54,8 @@ Scalar::Accessors::LikeHash::JSON - access a JSON scalar string in a hash-like m
 
 This is a concrete implementation of L<Scalar::Accessors::LikeHash>.
 
+This module requires L<JSON> to be installed.
+
 =head1 BUGS
 
 Please report any bugs to
@@ -62,6 +64,7 @@ L<http://rt.cpan.org/Dist/Display.html?Queue=Scalar-Accessors-LikeHash>.
 =head1 SEE ALSO
 
 L<Scalar::Accessors::LikeHash>,
+L<JSON>,
 L<Acme::MooseX::JSON>.
 
 =head1 AUTHOR
