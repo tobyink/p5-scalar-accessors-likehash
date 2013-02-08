@@ -7,7 +7,7 @@ use warnings;
 our $AUTHORITY = 'cpan:TOBYINK';
 our $VERSION   = '0.001';
 
-use Moose ();
+use Moose 2.00 ();
 use Moose::Exporter;
 use Moose::Util::MetaRole;
 use Scalar::Accessors::LikeHash::JSON ();
