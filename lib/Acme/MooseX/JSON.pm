@@ -5,7 +5,7 @@ use strict;
 use warnings;
 
 our $AUTHORITY = 'cpan:TOBYINK';
-our $VERSION   = '0.001';
+our $VERSION   = '0.002';
 
 use Moose 2.00 ();
 use Moose::Exporter;
@@ -18,14 +18,14 @@ BEGIN {
 	package Acme::MooseX::JSON::Trait::Class;
 	use Moose::Role;
 	our $AUTHORITY = 'cpan:TOBYINK';
-	our $VERSION   = '0.001';
+	our $VERSION   = '0.002';
 };
 
 BEGIN {
 	package Acme::MooseX::JSON::Trait::Instance;
 	use Moose::Role;
 	our $AUTHORITY = 'cpan:TOBYINK';
-	our $VERSION   = '0.001';
+	our $VERSION   = '0.002';
 	
 	override create_instance => sub {
 		my $meta  = shift;

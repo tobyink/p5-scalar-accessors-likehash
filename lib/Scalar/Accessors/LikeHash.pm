@@ -9,7 +9,7 @@ use Role::Tiny;
 use Scalar::Util qw(blessed);
 
 our $AUTHORITY = 'cpan:TOBYINK';
-our $VERSION   = '0.001';
+our $VERSION   = '0.002';
 
 requires qw( _to_hash _from_hash );
 
